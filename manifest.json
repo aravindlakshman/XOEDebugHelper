@@ -1,0 +1,28 @@
+{
+    "name": "XOE Debug helper",
+    "version": "1.0",
+    "description": "A tool which provides user context string from healthcheck page",
+    "permissions": ["activeTab","declarativeContent","storage","debugger"],
+    
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "page_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/bee16.png",
+        "32": "images/bee32.png",
+        "48": "images/bee48.png",
+        "128": "images/bee128.png"
+      }
+    },
+    "icons": {
+      "16": "images/bee16.png",
+      "32": "images/bee32.png",
+      "48": "images/bee48.png",
+      "128": "images/bee128.png"
+    },
+    
+    "manifest_version": 2
+  }
